@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script>
+        function hello(){
+            alert("hello on click")
+        }
+        function hello1(){
+            alert("hello on mouse hover")
+        }
+        function hello2(){
+            alert("hello on key press")
+        }
+        function hello3(){
+            alert("hello on double click")
+        }
+        
+    </script>
+</head>
+<body>
+    <button onclick="hello()">click here!</button>
+    <button onmouseenter="hello1()">hover on this</button>
+    
+    <button onkeypress="hello2()">press any key</button>
+    <button ondblclick="hello3()">doble click here</button>
+</body>
+</html>
